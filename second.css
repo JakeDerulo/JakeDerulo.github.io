@@ -1,8 +1,9 @@
-body{
-    background-color: lightcoral;
-}
-.testi2{ 
-border-style: dotted;
+body {color: white;
+    background-color: black;}
+h1 {font-size: 20px;}
+p {font-size: 12px;}
+p {color:green}
+.testi2 {border-style: dotted;
 border-width: 2px;
 width: 100px;
 height: 100px;}
