@@ -11,9 +11,12 @@ nav {
   background: #ccc;
   padding: 20px;
   background-color: black;
+  color: white;
 }
 section {
   content: "";
   display: table;
   clear: both;
+  background-color: #666;
+  color: white;
 }
