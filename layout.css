@@ -6,13 +6,9 @@ header {
   color: white;
 }
 nav {
-  float: center;
-  background: #ccc;
-  padding: 20px;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 30px;
 }
 section {
   content: "";
