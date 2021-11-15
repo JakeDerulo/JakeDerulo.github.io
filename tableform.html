@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+
+        <title>Table ja Form</title>
+        <meta charset='utf-8' />
+        <link href="styletable.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <fieldset>
+        <table>
+            
+            <caption>Data</caption>
+            <tbody>
+                <tr>
+                    <th>Nimi</th>
+                    <th>Synt.</th>
+                    <th>Kaupunki</th>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>08.11.1999</td>
+                    <td>Helsinki</td>
+                </tr>
+                
+               
+                
+                
+                <tr>
+
+                    <td>John</td>
+                    <td>09.05.1997</td>
+                    <td>Turku</td>
+                </tr>
+                <tr>
+                    <td>James</td>
+                    <td>07.07.2000</td>
+                    <td>Oulu</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Vähän colspannia</th>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>06.07.1998</td>
+                    <td>Hämeenlinna</td>
+                </tr>
+                <tr>
+                    <td>Judy</td>
+                    <td>05.06.1995</td>
+                    <td>Rovaniemi</td>
+                </tr>
+            </tbody>
+        </table>
+        </fieldset>
+        <fieldset>
+        
+            <legend>Customer infromation</legend>
+        Name: <input type="text" name="name" required>
+        Last name:<input type="text" name="last name" required>
+        
+        <form>
+            Email: <input type="text" name='email' required>
+        </form>
+        <h1>Textarea</h1>
+        <textarea></textarea>
+
+        Singup for newsletter<input type="checkbox" name="checkbox">
+
+        <select><option value="Finnish">Finnish</option><option value="English">English</option></select>
+        <input type="submit" value="Add new user">
+        </fieldset>
+
+        
+    </body>
+</html>

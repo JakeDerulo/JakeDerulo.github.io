@@ -1,0 +1,13 @@
+body { background-color: coral; font-family: 'Courier New', Courier, monospace ;}
+
+textarea { height: 4vmax; width: 80px;}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+
+table, td, th { border: 1px solid; border-collapse: collapse; border-color: black;}
+
