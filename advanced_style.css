@@ -1,0 +1,29 @@
+#ad {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    text-shadow: 3px 3px seagreen;
+    font-size: xx-large;
+    background-image: url('one-tree-hill.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;;
+  }
+  #ad2 {border: 1px solid;
+    padding: 100px; font-size: xx-large;
+    background-image: url(one-tree-hill-.jpg);
+    background-size: cover;
+}
+
+    
+
+a:link {color: black; text-decoration: none; transition: all 2.5s; transition-duration: 2s;}
+a:visited {color: black;}
+a:hover { color: red;}
+    
+@media screen and (max-width: 800px) { body { background-color: black; color: white; }}
+
+
+
+
+  
